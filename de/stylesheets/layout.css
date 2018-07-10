@@ -1,0 +1,479 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+    
+    .full-width {
+        width: 100%;
+    }
+    
+    .section.top {
+        color: #fff;
+        height:800px;
+        overflow: hidden;
+        background-attachment: fixed;
+        border-bottom: 3px solid #000000; 
+    }
+    
+    .section.top .columns {
+    	padding-top: 300px;
+    }
+    
+    .topcontent {
+        position: absolute;
+        top:100px;
+        left:50%;
+        margin-left: -480px;
+        z-index: 9999;
+    }
+
+    
+    
+    /* debug */
+    .frame {
+        border: 1px solid #000;
+    }
+    
+    
+    .toplogowapper {
+        width: 320px;
+        margin: 0px auto;
+    }
+
+    
+    .ccbutton.hero-button {
+        display: block;
+        margin: 0px auto;
+        
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+        
+        width: 200px;
+    }
+    
+    .menu, .menu div {
+        background-color: #ffffff;
+        position: relative;
+        display: block;
+        height: 90px;
+    }
+    
+    .menu {
+	    position: fixed;
+        top:0px;
+        z-index: 999999;
+        border-bottom: 3px solid #000000; 
+    }
+    
+    .menu #mainmenu {
+        height:41px;
+    }
+    
+    .menu .nav {
+      position: relative;
+      left: 0;
+      display: block;
+      float: left;
+      margin: 0;
+      height:100%;
+    }
+    
+    .menu .nav.pull-right {
+      float: right;
+      margin-right: 0;
+    }
+    
+    .menu .nav > li {
+      float: left;
+      padding-top: 52px;
+      line-height: 41px;
+      margin: 0px 15px;
+    }
+    
+    .menu #langmenu .nav > li {
+    	margin: 0px 5px !important;
+    }
+    
+    .menu .nav > li > a {
+      float: none;
+      padding: 5px 0px 15px;
+      color: #777777;
+      text-decoration: none;
+    }
+    
+    .menu .nav .dropdown-toggle .caret {
+      margin-top: 8px;
+    }
+    
+    .menu .nav > li > a:focus,
+    .menu .nav > li > a:hover {
+      color: #333333;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    
+    .menu .nav > .active > a,
+    .menu .nav > .active > a:hover,
+    .menu .nav > .active > a:focus {
+		border-top: 3px solid #b61919;
+		color: #b61919;
+    }
+    .special {
+	    color: #ffffff;
+	    font-size: 98px;
+	    line-height: 105px;
+	    text-align: center;
+    }
+    
+    .menu small {
+	    font-size: 10px;
+    }
+
+
+
+
+
+    
+    .icon {
+        display: block;
+        background-color: #b2b2b2;
+        border-radius:50%;
+    }
+    
+    .icon-large {
+        width: 180px;
+        height:180px;
+        margin: 30px auto;
+    }
+    
+    .icon-mini {
+        width: 20px;
+        height:20px;
+        margin: 5px auto;
+    }
+    
+    .icon.inline {
+        display: inline-block;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height:180px;
+        display: block;
+        background-color: #b2b2b2;
+    }
+    
+    .footer .nav {
+        margin-left: -10px;
+    }
+    
+
+
+
+	
+	.stick {
+		position: fixed;
+		width: 100%;
+		height: auto;
+	}
+
+	.stickslideshow {
+		position: fixed;
+		
+	}
+	
+	.topbackground {
+		height: 800px;
+		width: 100%;
+	}
+	
+	.topbackground-slide {
+		height: 800px;
+		width: 100%;
+		background-position: center center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+
+	.vlasta-bgr {
+		background-image: url(../images/Vlasta_Pic_03.jpg);
+		height: 800px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+/*     miscelanious */
+
+    .pull-right {
+        float: right !important;
+    }
+    
+    .pull-left {
+        float: left !important;
+    }
+    
+    .acenter {
+        text-align: center !important;
+    }
+    
+    
+    
+
+/* #Page Styles
+================================================== */
+	.menulogo a {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	.menulogo a:hover {
+		color: #000;
+	}
+	
+    .work {
+        padding-top: 50px;
+        background-color: #ffffff;
+        padding: 0px;
+        position: relative;
+    }
+    
+    .about {
+        background-color: #ffffff;
+        height: 793px;
+        color: #fff;
+        position: relative;
+    }
+    
+    .about .container {
+	    background-color: #161511;
+    }
+    
+    .about .text {
+	    padding: 30px;
+	    padding-top: 101px;
+    }
+    
+    .desc {
+	    position: absolute;
+	    bottom:0px;
+    }
+    
+    .footer {
+        background-color: #ffffff;
+        padding: 0px;
+        color: #ffffff;
+    }
+    
+    .footer .specialcont {
+        background-color: #191919;
+    }
+    
+    .footer .afterfooter {
+	    text-align: center;
+	    color: #000000;
+    }
+    
+    .footer a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    .arrow { 
+	    display: inline-block;
+	    position: absolute;
+	    top:50%;
+	    margin-top: -62px;
+	    z-index: 9999;
+    }
+    
+    .leftarrow {
+	    left:20px;
+    }
+    
+    .rightarrow {
+	    right:20px;
+    }
+    
+    .controll {
+	    display: inline-block;
+	    position: absolute;
+	    width: 100%;
+	    height:50px;
+		left:0px;
+		bottom:0px;
+		text-align: center;
+		
+		z-index: 9999;
+
+	    border: 0px solid #F00;
+    }
+    
+    .controll a {
+	    display: inline-block;
+	    width: 8px;
+	    height: 8px;
+	    margin-right: 8px;
+	    text-indent: -99999px;
+	    background-color: #fff;
+    }
+    
+    .controll a.cycle-pager-active {
+	    background-color: #b61919;
+    }
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+    	
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+    	
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+    	.menu #mainmenu {
+            height:auto;
+        }
+        .menu .nav > li > a {
+            width: 100%;
+            display: block;
+            border-radius: 5px;
+        }
+    	.menulogo {
+            padding: 20px 0px;
+        }
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+@font-face {
+    font-family: 'ght';
+    src: url('../fonts/gth-black-webfont.eot');
+    src: url('../fonts/gth-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gth-black-webfont.woff') format('woff'),
+         url('../fonts/gth-black-webfont.ttf') format('truetype'),
+         url('../fonts/gth-black-webfont.svg#gthblack') format('svg');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ght';
+    src: url('../fonts/gth-book-webfont.eot');
+    src: url('../fonts/gth-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gth-book-webfont.woff') format('woff'),
+         url('../fonts/gth-book-webfont.ttf') format('truetype'),
+         url('../fonts/gth-book-webfont.svg#gthbook') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ght';
+    src: url('../fonts/gth-medium-webfont.eot');
+    src: url('../fonts/gth-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gth-medium-webfont.woff') format('woff'),
+         url('../fonts/gth-medium-webfont.ttf') format('truetype'),
+         url('../fonts/gth-medium-webfont.svg#gthmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+  .wf-loading p, .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading h4, .wf-loading h5, .wf-loading h6 { 
+    visibility: hidden;
+  }
+  
+  
+  
+  .wf-inactive p { 
+    
+  }
+  .wf-active p { 
+    
+  }
+  .wf-inactive h1 {
+    
+  }
+  .wf-active h1 {
+    
+  }

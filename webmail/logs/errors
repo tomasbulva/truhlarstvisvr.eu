@@ -1,0 +1,22 @@
+[19-Jan-2014 21:15:17 UTC] MDB2 Error: connect failed (-24): _doConnect: [Error message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+[Native code: 2002]
+[Native message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+
+[20-Jan-2014 01:15:17 +0400]: DB Error: _doConnect: [Error message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+[Native code: 2002]
+[Native message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+ ** mysql(mysql)://root:xxx@localhost/roundcubedb in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_mdb2.php on line 104 (GET /webmail/?_task=mail&_action=check-recent&_mbox=INBOX&_list=1&_quota=1&_remote=1&_unlock=0&_=1390166117083)
+[19-Jan-2014 21:16:17 UTC] MDB2 Error: connect failed (-24): _doConnect: [Error message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+[Native code: 2002]
+[Native message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+
+[20-Jan-2014 01:16:17 +0400]: DB Error: _doConnect: [Error message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+[Native code: 2002]
+[Native message: Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)]
+ ** mysql(mysql)://root:xxx@localhost/roundcubedb in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_mdb2.php on line 104 (GET /webmail/?_task=mail&_action=check-recent&_mbox=INBOX&_list=1&_quota=1&_remote=1&_unlock=0&_=1390166177080)
+[26-Jan-2014 22:41:37 +0400]: IMAP Error: Login failed for SVR@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
+[27-Jan-2014 22:45:17 +0400]: IMAP Error: Login failed for truhlarstvisvr.eu@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
+[27-Jan-2014 22:45:31 +0400]: IMAP Error: Login failed for truhlarstvisvr.eu@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
+[27-Jan-2014 22:46:32 +0400]: IMAP Error: Login failed for truhlarstvisvr.eu@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
+[27-Jan-2014 22:46:44 +0400]: IMAP Error: Login failed for truhlarstvisvr.eu@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
+[27-Jan-2014 22:48:35 +0400]: IMAP Error: Login failed for truhlarstvisvr.eu@truhlarstvisvr.eu from 213.180.53.50. LOGIN: Login failed. in /home/openpanel-admin/sites/www.truhlarstvisvr.eu/public_html/webmail/program/include/rcube_imap.php on line 205 (POST /webmail/?_task=login&_action=login)
