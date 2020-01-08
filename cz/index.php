@@ -12,7 +12,7 @@ include("../settings.php");
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>SVR v.o.s.</title>
+  <title>SVR Plánička s.r.o.</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,11 +37,11 @@ include("../settings.php");
 
 </head>
 <body>
-    	
+
     	<div class="menu frame_ full-width">
             <div class="container frame_">
                 <div class="sixteen columns alpha omega">
-                    <div class="menulogo pull-left"><h1><a href="#top" title="SVR" class="logo">SVR<small>v.o.s.</small>&nbsp;</h1></div>
+                    <div class="menulogo pull-left"><h1><a href="#top" title="SVR" class="logo">SVR Plánička<small>s.r.o.</small>&nbsp;</h1></div>
                     <div id="mainmenu" class="pull-left">
                       <ul class="nav">
                         <li class="two column _frame menuabout alpha omega"><a href="#about" class="scrollit target-about menulink" title="">O NÁS</a></li>
@@ -53,26 +53,26 @@ include("../settings.php");
                     <div id="langmenu" class="pull-right">
                       <ul class="nav">
                         <li class="two column _frame alpha omega">|</li>
-                        <li class="two column _frame alpha omega active"><a href="<?php echo $webroot; ?>/cz" class="scrollit target-about" title="">CZ</a></li>
-                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/en" class="scrollit target-work" title="">EN</a></li>
-                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/de" class="target-login" title="">DE</a></li>
+                        <li class="two column _frame alpha omega active"><a href="<?php echo $webroot; ?>/cz/" class="scrollit target-about" title="">CZ</a></li>
+                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/en/" class="scrollit target-work" title="">EN</a></li>
+                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/de/" class="target-login" title="">DE</a></li>
                         <!-- <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/fr" class="target-login" title="">FR</a></li> -->
                       </ul>
                     </div>
                 </div>
             </div>
         </div>
-    	
+
         <div class="section top frame_ full-width" id="top">
             <div class="container frame_ topcontent">
                 <div class="sixteen columns">
-                    
+
                     <h1 class="special">TRUHLÁŘSTVÍ</h1>
-                    
+
                 </div>
             </div>
 			<div class="full-width cycle-slideshow topbackground" data-cycle-timeout="10000" data-cycle-slides="> div">
-			
+
 				<div class="topbackground-slide" style="background-image: url(images/background0.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background1.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background2.jpg);"></div>
@@ -81,81 +81,79 @@ include("../settings.php");
 				<div class="topbackground-slide" style="background-image: url(images/background5.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background6.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background7.jpg);"></div>
-				
+
 			</div>
         </div>
-        
+
         <div class="section mainsection about full-width " id="about">
             <div class="container frame_ vlasta-bgr">
 				<div class="row">
 	                <div class="eight columns offset-by-eight">
 	                	<div class="text">
 							<p>SVR je rodinná truhlářská firma s více než dvaceti letou tradicí. Naše společnost je připravená splnit jakékoliv přání našich zákazníků ať už se jedná o špaletová okna, eurookna, dveře, repliky historických oken a dveří, schodiště, zakázkový nábytek, renovace nebo replika historické truhlářské práce. </p>
-	
+
 							<p>Pomůžeme Vám zrealizovat vaše představy ať už jsou na obrázku nebo jen pouhá vize. V závislosti na komplikovanosti projektu vypracujeme návrhy a technické výkresy. Zaměstnanci naší společnosti jsou profesionální a vysoce kvalifikovaní odborníci na nejvyšší úrovni. Všechny naše projekty jsou zpracovávany z nejkvalitenějších materialů a nejlepší možnou technologii, která je v současné době dostupná. Naše společnost si také velice váží životního prostředí a proto jsou naše dílny a lakovny zásobovány tepelnou energii z obnovitelných zdrojů a vyhovují nejvyšším evropským standartům. U nás se Vám dostane individualní přístup a Vaše zakázky budou splněny k Vaší spokojenosti.</p>
-	
+
 							<p class="desc">Majitel: Ing. Vlastimil Plánička</p>
 	                	</div>
 	                </div>
 				</div>
             </div>
         </div>
-        
+
         <div class="section mainsection work full-width" id="products">
             <div class="container">
             	<div class="row">
 	            	<div class="leftarrow arrow"><a href="#" title="left arrow" id="prev" class="leftarrow_anchor"><img src="images/svr_11.png" alt="svr_11" width="66" height="124"></a></div>
 	            	<div class="rightarrow arrow"><a href="#" title="right arrow" id="next" class="rightarrow_anchor"><img src="images/svr_12.png" alt="svr_11" width="66" height="124"></a></div>
-	            	
-	                <div class="full-width cycle-slideshow"
-	                			data-cycle-fx=scrollHorz
-								data-cycle-timeout=5000
-								data-cycle-pager="#custom-pager"
-								data-cycle-pager-template="<a href=#> {{slideNum}} </a>"
-								data-cycle-prev="#prev"
-								data-cycle-next="#next"
-								>
-	                    
-	          <img src="products/malipetrovna.jpg" alt="malipetrovna" width="960" height="799">
-						<img src="products/popovicky_1.jpg" alt="popovicky_1" width="960" height="799">
-						<img src="products/popovicky_2.jpg" alt="popovicky_2" width="960" height="799">
-						<img src="products/popovicky_3.jpg" alt="popovicky_3" width="960" height="799">
-						<img src="products/Popovicky-detail_4.jpg" alt="Popovicky-detail_4" width="960" height="799">
-						<img src="products/praha_1.jpg" alt="praha_1" width="960" height="799">
-						<img src="products/praha_2.jpg" alt="praha_2" width="960" height="799">
-						<img src="products/Praha_8.jpg" alt="Praha_8" width="960" height="799">
-						<img src="products/praha_9.jpg" alt="praha_9" width="960" height="799">
-						<img src="products/praha_10.jpg" alt="praha_10" width="960" height="799">
-						<img src="products/PrahaKB_3.jpg" alt="PrahaKB_3" width="960" height="799">
-						<img src="products/PrahaKB_4.jpg" alt="PrahaKB_4" width="960" height="799">
-						<img src="products/PrahaKB_5.jpg" alt="PrahaKB_5" width="960" height="799">
-						<img src="products/PrahaKB_6.jpg" alt="PrahaKB_6" width="960" height="799">
-						<img src="products/PrahaKB_7.jpg" alt="PrahaKB_7" width="960" height="799">
-						<img src="products/Slany_1.jpg" alt="Slany_1" width="960" height="799">
-						<img src="products/Slany_2.jpg" alt="Slany_2" width="960" height="799">
-						<img src="products/Slany_3.jpg" alt="Slany_3" width="960" height="799">
-						<img src="products/Slany_4.jpg" alt="Slany_4" width="960" height="799">
-						<img src="products/Slany_5-gympl.jpg" alt="Slany_5-gympl" width="960" height="799">
-						<img src="products/Slany_6.jpg" alt="Slany_6" width="960" height="799">
-						<img src="products/Slany_7.jpg" alt="Slany_7" width="960" height="799">
-						<img src="products/Slany_8.jpg" alt="Slany_8" width="960" height="799">
-						<img src="products/Slany_9.jpg" alt="Slany_9" width="960" height="799">
-						<img src="products/trebiz_1_05.jpg" alt="trebiz_1_05" width="960" height="799">
-						<img src="products/trebiz_2_05.jpg" alt="trebiz_2_05" width="960" height="799">
-						<img src="products/trebiz_3_05.jpg" alt="trebiz_3_05" width="960" height="799">
-						<img src="products/trebiz_4_05.jpg" alt="trebiz_4_05" width="960" height="799">
+                <div class="full-width cycle-slideshow"
+            			data-cycle-fx=scrollHorz
+  								data-cycle-timeout=5000
+  								data-cycle-pager="#custom-pager"
+  								data-cycle-pager-template="<a href=#> {{slideNum}} </a>"
+  								data-cycle-prev="#prev"
+  								data-cycle-next="#next"
+  							>
+      	          <img src="products/malipetrovna.jpg" alt="malipetrovna" width="960" height="799">
+      						<img src="products/popovicky_1.jpg" alt="popovicky_1" width="960" height="799">
+      						<img src="products/popovicky_2.jpg" alt="popovicky_2" width="960" height="799">
+      						<img src="products/popovicky_3.jpg" alt="popovicky_3" width="960" height="799">
+      						<img src="products/Popovicky-detail_4.jpg" alt="Popovicky-detail_4" width="960" height="799">
+      						<img src="products/praha_1.jpg" alt="praha_1" width="960" height="799">
+      						<img src="products/praha_2.jpg" alt="praha_2" width="960" height="799">
+      						<img src="products/Praha_8.jpg" alt="Praha_8" width="960" height="799">
+      						<img src="products/praha_9.jpg" alt="praha_9" width="960" height="799">
+      						<img src="products/praha_10.jpg" alt="praha_10" width="960" height="799">
+      						<img src="products/PrahaKB_3.jpg" alt="PrahaKB_3" width="960" height="799">
+      						<img src="products/PrahaKB_4.jpg" alt="PrahaKB_4" width="960" height="799">
+      						<img src="products/PrahaKB_5.jpg" alt="PrahaKB_5" width="960" height="799">
+      						<img src="products/PrahaKB_6.jpg" alt="PrahaKB_6" width="960" height="799">
+      						<img src="products/PrahaKB_7.jpg" alt="PrahaKB_7" width="960" height="799">
+      						<img src="products/Slany_1.jpg" alt="Slany_1" width="960" height="799">
+      						<img src="products/Slany_2.jpg" alt="Slany_2" width="960" height="799">
+      						<img src="products/Slany_3.jpg" alt="Slany_3" width="960" height="799">
+      						<img src="products/Slany_4.jpg" alt="Slany_4" width="960" height="799">
+      						<img src="products/Slany_5-gympl.jpg" alt="Slany_5-gympl" width="960" height="799">
+      						<img src="products/Slany_6.jpg" alt="Slany_6" width="960" height="799">
+      						<img src="products/Slany_7.jpg" alt="Slany_7" width="960" height="799">
+      						<img src="products/Slany_8.jpg" alt="Slany_8" width="960" height="799">
+      						<img src="products/Slany_9.jpg" alt="Slany_9" width="960" height="799">
+      						<img src="products/trebiz_1_05.jpg" alt="trebiz_1_05" width="960" height="799">
+      						<img src="products/trebiz_2_05.jpg" alt="trebiz_2_05" width="960" height="799">
+      						<img src="products/trebiz_3_05.jpg" alt="trebiz_3_05" width="960" height="799">
+      						<img src="products/trebiz_4_05.jpg" alt="trebiz_4_05" width="960" height="799">
 
-	          <!-- <img src="products/pc_1.jpg" alt="trebiz_4_05" width="960" height="799"> -->
-            
-            <img src="products/door3.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door4.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door5.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door5-det.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/Skola.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/Skola1.jpg" alt="trebiz_4_05" width="960" height="799">  
-        
+      	          <!-- <img src="products/pc_1.jpg" alt="trebiz_4_05" width="960" height="799"> -->
+
+                  <img src="products/door3.jpg" alt="trebiz_4_05" width="960" height="799">
+                  <img src="products/door4.jpg" alt="trebiz_4_05" width="960" height="799">
+                  <img src="products/door5.jpg" alt="trebiz_4_05" width="960" height="799">
+                  <img src="products/door5-det.jpg" alt="trebiz_4_05" width="960" height="799">
+                  <img src="products/Skola.jpg" alt="trebiz_4_05" width="960" height="799">
+                  <img src="products/Skola1.jpg" alt="trebiz_4_05" width="960" height="799">
+
 	                </div>
-	                
+
 	                <div class="controll" id="custom-pager"></div>
             	</div>
             </div>
@@ -165,18 +163,18 @@ include("../settings.php");
                 <div class="row">
 	                <div class="three columns"><img src="images/svr_15.png" alt="svr_15" width="170" height="144"></div>
 	                <div class="three columns"><img src="images/svr_17.png" alt="svr_17" width="160" height="144"></div>
-	                
+
 	                <div class="four columns"><img src="images/svr_19.png" alt="svr_19" width="219" height="144"></div>
-	                
+
 	                <div class="three columns"><img src="images/svr_21.png" alt="svr_21" width="162" height="144"></div>
 	                <div class="three columns"><img src="images/svr_23.png" alt="svr_23" width="169" height="144"></div>
                 </div>
                 <div class="row">
 	                <div class="three columns"><img src="images/svr_24.png" alt="svr_24" width="170" height="157"></div>
 	                <div class="three columns"><img src="images/svr_25.png" alt="svr_25" width="160" height="157"></div>
-	                
+
 	                <div class="four columns"><img src="images/svr_26.png" alt="svr_26" width="219" height="157"></div>
-	                
+
 	                <div class="three columns"><img src="images/svr_27.png" alt="svr_27" width="162" height="157"></div>
 	                <div class="three columns"><img src="images/svr_28.png" alt="svr_28" width="169" height="157"></div>
                 </div>
@@ -189,29 +187,29 @@ include("../settings.php");
                     <div class="row">
                         <div class="eight columns alpha">
                             <p>
-                            <b>SVR v.o.s.</b><br>
-							Provozovna: Klobuky 11, 27374, <br>Česká Republika, Evropa
+                              <b>SVR Plánička s.r.o.</b><br>
+							                Provozovna: Nám. J. Š. Baara 11, 27374 Klobuky, <br>Česká Republika, Evropa
                             </p>
                         </div>
                         <div class="eight columns omega">
                             <p>
-                            <b>Ing. Vlastimil Plánička</b><br>
-							TEL +420 604 207 780, <br>EMAIL <a href="mailto:svr@truhlarstvisvr.eu" title="svr@truhlarstvisvr.eu">svr@truhlarstvisvr.eu</a>
+                              <b>Ing. Vlastimil Plánička</b><br>
+							                TEL +420 604 207 780, <br>EMAIL <a href="mailto:svr@truhlarstvisvr.eu" title="svr@truhlarstvisvr.eu">svr@truhlarstvisvr.eu</a>
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="container afterfooter">
             	<p>
-	            	&copy; 2013 SVR v.o.s. Všechna práva vyhrazena.
+	            	&copy; 2020 SVR Plánička s.r.o. Všechna práva vyhrazena.
             	</p>
             </div>
         </div>
-        
 
-        
+
+
 
 
 <!-- End Document

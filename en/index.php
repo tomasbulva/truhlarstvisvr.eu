@@ -11,7 +11,7 @@ include("../settings.php");
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>SVR v.o.s.</title>
+  <title>SVR Plánička s.r.o.</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,11 +37,11 @@ include("../settings.php");
 
 </head>
 <body>
-    	
+
     	<div class="menu frame_ full-width">
             <div class="container frame_">
                 <div class="sixteen columns alpha omega">
-                    <div class="menulogo pull-left"><h1><a href="#top" title="SVR" class="logo">SVR<small>v.o.s.</small>&nbsp;</h1></div>
+                    <div class="menulogo pull-left"><h1><a href="#top" title="SVR" class="logo">SVR Plánička<small>s.r.o.</small>&nbsp;</h1></div>
                     <div id="mainmenu" class="pull-left">
                       <ul class="nav">
                         <li class="two column _frame menuabout alpha omega"><a href="#about" class="scrollit target-about menulink" title="">ABOUT</a></li>
@@ -53,26 +53,26 @@ include("../settings.php");
                     <div id="langmenu" class="pull-right">
                       <ul class="nav">
                         <li class="two column _frame alpha omega">|</li>
-                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/cz" class="scrollit target-about" title="">CZ</a></li>
-                        <li class="two column _frame alpha omega active"><a href="<?php echo $webroot; ?>/en" class="scrollit target-work" title="">EN</a></li>
-                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/de" class="target-login" title="">DE</a></li>
+                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/cz/" class="scrollit target-about" title="">CZ</a></li>
+                        <li class="two column _frame alpha omega active"><a href="<?php echo $webroot; ?>/en/" class="scrollit target-work" title="">EN</a></li>
+                        <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/de/" class="target-login" title="">DE</a></li>
                         <!-- <li class="two column _frame alpha omega"><a href="<?php echo $webroot; ?>/fr" class="target-login" title="">FR</a></li> -->
                       </ul>
                     </div>
                 </div>
             </div>
         </div>
-    	
+
         <div class="section top frame_ full-width" id="top">
             <div class="container frame_ topcontent">
                 <div class="sixteen columns">
-                    
+
                     <h1 class="special">WOODWORK</h1>
-                    
+
                 </div>
             </div>
 			<div class="full-width cycle-slideshow topbackground" data-cycle-timeout="10000" data-cycle-slides="> div">
-			
+
 				<div class="topbackground-slide" style="background-image: url(images/background0.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background1.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background2.jpg);"></div>
@@ -81,32 +81,32 @@ include("../settings.php");
 				<div class="topbackground-slide" style="background-image: url(images/background5.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background6.jpg);"></div>
 				<div class="topbackground-slide" style="background-image: url(images/background7.jpg);"></div>
-				
+
 			</div>
         </div>
-        
+
         <div class="section mainsection about full-width " id="about">
             <div class="container frame_ vlasta-bgr">
 				<div class="row">
 	                <div class="eight columns offset-by-eight">
 	                	<div class="text">
 							<p>SVR is a family owned company that was established in 1993. We are a dedicated company that is ready to handle any type of woodworking need that you may have, from creating custom furniture, euro windows, doors, stairs, renovation and replication of historic wooden windows and doors to complete project management.</p>
-	
-							<p>We can help you design what you have in mind, or you can bring us a picture or drawing to work from. Once the idea is given to us, we will then produce a technical drawing for your approval and for our precise building. SVR is staffed with experienced, detail oriented woodworkers that use state of the art materials, machines and techiques to produce an exquisite work of art. All of our projects use materials of the highest quality and we stand behind every piece manufactured.</p>
-	
+
+							<p>We can help you design what you have in mind, or you can bring us a picture or drawing to work from. Once the idea is given to us, we will then produce a technical drawing for your approval and for our precise building. SVR is staffed with experienced, detail oriented woodworkers that use state of the art materials, machines and techiques to produce an exquisite work of art. All of our projects use materials of the highest quality and we stand behind every piece manufactured.<p>
+
 							<p class="desc">Founder: Ing. Vlastimil Planicka</p>
 	                	</div>
 	                </div>
 				</div>
             </div>
         </div>
-        
+
         <div class="section mainsection work full-width" id="products">
             <div class="container">
             	<div class="row">
 	            	<div class="leftarrow arrow"><a href="#" title="left arrow" id="prev" class="leftarrow_anchor"><img src="images/svr_11.png" alt="svr_11" width="66" height="124"></a></div>
 	            	<div class="rightarrow arrow"><a href="#" title="right arrow" id="next" class="rightarrow_anchor"><img src="images/svr_12.png" alt="svr_11" width="66" height="124"></a></div>
-	            	
+
 	                <div class="full-width cycle-slideshow"
 	                			data-cycle-fx=scrollHorz
 								data-cycle-timeout=5000
@@ -116,7 +116,7 @@ include("../settings.php");
 								data-cycle-next="#next"
 								data-cycle-pause-on-hover="true"
 								>
-	                    
+
 	                    <img src="products/malipetrovna.jpg" alt="malipetrovna" width="960" height="799">
 						<img src="products/popovicky_1.jpg" alt="popovicky_1" width="960" height="799">
 						<img src="products/popovicky_2.jpg" alt="popovicky_2" width="960" height="799">
@@ -146,16 +146,16 @@ include("../settings.php");
 						<img src="products/trebiz_3_05.jpg" alt="trebiz_3_05" width="960" height="799">
 						<img src="products/trebiz_4_05.jpg" alt="trebiz_4_05" width="960" height="799">
             <!-- <img src="products/pc_1.jpg" alt="trebiz_4_05" width="960" height="799"> -->
-            
-            <img src="products/door3.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door4.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door5.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/door5-det.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/Skola.jpg" alt="trebiz_4_05" width="960" height="799">  
-            <img src="products/Skola1.jpg" alt="trebiz_4_05" width="960" height="799"> 
-	                    
+
+            <img src="products/door3.jpg" alt="trebiz_4_05" width="960" height="799">
+            <img src="products/door4.jpg" alt="trebiz_4_05" width="960" height="799">
+            <img src="products/door5.jpg" alt="trebiz_4_05" width="960" height="799">
+            <img src="products/door5-det.jpg" alt="trebiz_4_05" width="960" height="799">
+            <img src="products/Skola.jpg" alt="trebiz_4_05" width="960" height="799">
+            <img src="products/Skola1.jpg" alt="trebiz_4_05" width="960" height="799">
+
 	                </div>
-	                
+
 	                <div class="controll" id="custom-pager"></div>
             	</div>
             </div>
@@ -165,18 +165,18 @@ include("../settings.php");
                 <div class="row">
 	                <div class="three columns"><img src="images/svr_15.png" alt="svr_15" width="170" height="144"></div>
 	                <div class="three columns"><img src="images/svr_17.png" alt="svr_17" width="160" height="144"></div>
-	                
+
 	                <div class="four columns"><img src="images/svr_19.png" alt="svr_19" width="219" height="144"></div>
-	                
+
 	                <div class="three columns"><img src="images/svr_21.png" alt="svr_21" width="162" height="144"></div>
 	                <div class="three columns"><img src="images/svr_23.png" alt="svr_23" width="169" height="144"></div>
                 </div>
                 <div class="row">
 	                <div class="three columns"><img src="images/svr_24.png" alt="svr_24" width="170" height="157"></div>
 	                <div class="three columns"><img src="images/svr_25.png" alt="svr_25" width="160" height="157"></div>
-	                
+
 	                <div class="four columns"><img src="images/svr_26.png" alt="svr_26" width="219" height="157"></div>
-	                
+
 	                <div class="three columns"><img src="images/svr_27.png" alt="svr_27" width="162" height="157"></div>
 	                <div class="three columns"><img src="images/svr_28.png" alt="svr_28" width="169" height="157"></div>
                 </div>
@@ -189,8 +189,8 @@ include("../settings.php");
                     <div class="row">
                         <div class="eight columns alpha">
                             <p>
-                            <b>SVR v.o.s.</b><br>
-							Manufacturing plant: Klobuky 11, 27374, <br>Czech Republic, Europe
+                              <b>SVR Plánička s.r.o.</b><br>
+                              Manufacturing plant: Nám. J. Š. Baara 11, 27374 Klobuky, <br>Česká Republika, Evropa
                             </p>
                         </div>
                         <div class="eight columns omega">
@@ -200,18 +200,18 @@ include("../settings.php");
                             </p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="container afterfooter">
             	<p>
-	            	&copy; 2013 SVR v.o.s. All rights reserved
+	            	&copy; 2020 SVR Plánička s.r.o. All rights reserved
             	</p>
             </div>
         </div>
-        
 
-        
+
+
 
 
 <!-- End Document
